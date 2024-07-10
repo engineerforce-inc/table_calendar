@@ -11,7 +11,11 @@ dependencies:
   flutter:
     sdk: flutter
 
-  intl: ^0.19.0
+  intl:
+    git:
+      url: https://github.com/engineerforce-inc/i18n.git
+      ref: da3b47a
+      path: pkgs/intl
   simple_gesture_detector: ^0.2.0
 
 dev_dependencies:
